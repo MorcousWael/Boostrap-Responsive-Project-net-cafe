@@ -1,5 +1,5 @@
 # Boostrap-Responsive-Project-net-cafe
-This is a project Realted to GDSC Google Development Students CLub 
+This is a project Realted to GDSC Google Developer Student Club 
 where we were asked to make a fully responsive Net Cafe Website and i choose to do it using Bootstrap to learn more about it.
 ## Sample Screenshots from the website
 ### Home Page
