@@ -4,7 +4,7 @@ where we were asked to make a fully responsive Net Cafe Website and i choose to 
 ## Sample Screenshots from the website
 ### Home Page
 ![Screenshot](./sample-images-for-website/Home Page.png)
-![Screenshot](./sample-images-for-website/Home Page2.png)
+![Screenshot](./sample-images-for-website/Home Page 2.png)
 ### Menu
 ![Screenshot](./sample-images-for-website/Menu.png)
 ### About us
