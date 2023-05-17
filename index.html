@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="CSS/stylesheet.css" rel="stylesheet"/>
+    <title>CaffeineKick</title>
+  </head>
+<body>
+  
+  <header>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg p-0">
+      <div class="container-fluid custom-brown-bg">
+          <a href="index.html" class="navbar-brand">
+            <span class="fw-bolder fs-5">
+            <i class="bi bi-cup-hot-fill">Caffeine Kick</i>
+            </span>
+          </a>
+          <!--Toggle Button for navlinks(smaller screens)-->
+          <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#Navigation" aria-controls="Navigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!--Nav Links-->
+          <div class="collapse navbar-collapse justify-content-end align-items-center flex-grow-0" id="Navigation">
+            <ul class="navbar-nav fw-bolder">
+              <li class="nav-item">
+                <a class="nav-link  fs-5" aria-current="Home Page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="about-us.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="contact_us.html">Contact us</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+  </header>
+  <!--Slider Section-->
+  <section class="container-fluid d-none d-md-block custom-dark-brown-bg p-3">
+    <div id="carouselExampleIndicators" class="carousel slide ">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" >
+          <img src="Images/unsplash-1.1.jpg" class="d-block w-100 d-" alt="a Coffee Cup">
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>"Coffee, The Elixir Of Life."</h2>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/unsplash-2.jpg" class="d-block w-100" alt="Coffee Cup with beans on a table">
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>"Coffee, The Elixir Of Life."</h2>
+        </div>
+        <div class="carousel-item">
+          <img src="Images/unsplash3.jpg" class="d-block w-100" alt="iced coffee mix in a long glass cup">
+        </div>
+        <div class="carousel-caption d-none d-md-block">
+          <h2>"Coffee, The Elixir Of Life."</h2>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!--For Mobile or screens smaller than medium -->
+  <section class="container-fluid d-md-none custom-dark-brown-bg p-0">
+    <img src="Images/unsplash-1.1.jpg" class="d-block w-100 d-" alt="a Coffee Cup">
+  </section>
+  <!--Intro Section-->
+  <section class="container-fluid custom-dark-brown-bg pb-3 ">
+    <h1 class="display-3 text-center pt-4">Caffeine Kick</h1>
+    <p class="text-center">Welcome to our cafe home website, where we bring the warmth and comfort of a cozy cafe to your own home.Our mission is to provide you with the highest quality coffee, baked goods, and breakfast items that you can enjoy in the comfort of your own space. </p>
+    <p class="text-center"> We believe that a great cup of coffee and a delicious pastry can brighten even the dreariest of days, and we're dedicated to bringing that joy to our customers. Whether you're a coffee connoisseur or just looking for a tasty breakfast treat, we have something for everyone. We invite you to explore our menu and shop our selection of coffee and bakery items, and experience the warmth and hospitality of our cafe from the comfort of your own home.</p>
+  </section>
+  <!--Footer Section-->
+  <footer class="container-fluid custom-brown-bg p-3">
+    <div class="row">
+      <div class="col-4">
+        <p>&copy; 2023 My bootstrap Website</p>
+      </div>
+      <div class="col-4 text-center">
+        <i class="bi bi-cup-hot fs-5"></i>
+      </div>
+      <div class="col-4 d-flex justify-content-end fs-5">
+        <a class="text-black" href="#"><i class="bi bi-instagram mx-2 color-teritary"></i></a>
+        <a class="text-black" href="#"><i class="bi bi-facebook mx-2"></i></a>
+        <a class="text-black" href="#"><i class="bi bi-linkedin mx-2"></i></a>
+      </div>
+
+    </div>
+  </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

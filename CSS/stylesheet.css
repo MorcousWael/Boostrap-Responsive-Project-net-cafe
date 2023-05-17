@@ -1,0 +1,15 @@
+
+.carousel-item img {
+  height: 650px;
+  object-fit: cover;
+}
+.menu-item-img {
+  height: 150px;
+  object-fit: cover;
+}
+.custom-brown-bg {
+    background-color: #d5a56d;
+}
+.custom-dark-brown-bg {
+    background-color: #d5a46d7a;
+}
